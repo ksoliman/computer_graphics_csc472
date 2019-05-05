@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E6D81D47CB82C042EB13495A /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08DC333D3F914357834169A2 /* moc_HW1b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C27C5A15D1F6EE3434F35621 /* moc_HW1b.cpp */; settings = {ATTRIBUTES = (); }; };
+		0DDE04F7E9CD6153F8DBC86A /* Sphere.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DD19952F26E5A389318BABE7 /* Sphere.cpp */; settings = {ATTRIBUTES = (); }; };
+		0F099E3444CEE4CEEAE9D982 /* HW4a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AABBEDFC4380D58825801AF3 /* HW4a.cpp */; settings = {ATTRIBUTES = (); }; };
+		14309008A271EA73D96B75FF /* moc_HW0c.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 57833238A49AE0EDD63B721B /* moc_HW0c.cpp */; settings = {ATTRIBUTES = (); }; };
+		19ACB1123E7059B400C424E7 /* moc_HW1a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 100F4332B432EA381A674088 /* moc_HW1a.cpp */; settings = {ATTRIBUTES = (); }; };
+		1B7B56A57465CC98DEA2478E /* QtOpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9DB9C3F0220C4886CAD95C38 /* QtOpenGL.framework */; };
+		1C9BF4199BF761E5AFDD32B5 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 592964CEB7B52F90E9046BFF /* QtWidgets.framework */; };
+		29904606857D6ACE1755D00A /* moc_HW2a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 28655FEBAB855E9564CF9AD5 /* moc_HW2a.cpp */; settings = {ATTRIBUTES = (); }; };
+		2CF3EA3C46F8A724C35FD4B7 /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EF7700923023F0F5B2DE0F83 /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		39D8498198DC58EAACFDB40E /* Light.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1687CF0BB81986E63C09C311 /* Light.cpp */; settings = {ATTRIBUTES = (); }; };
+		3E5D6903D865425DEB6C5EC5 /* Cone.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1CD9ED508A07146374E19338 /* Cone.cpp */; settings = {ATTRIBUTES = (); }; };
+		3ED2D2667ADAF6C248B7243B /* moc_HW0b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B09F0B7D41423790623DB401 /* moc_HW0b.cpp */; settings = {ATTRIBUTES = (); }; };
+		477DF6158F9C8C212E0FE417 /* HW.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3A1D6077571074D30FEA474C /* HW.cpp */; settings = {ATTRIBUTES = (); }; };
+		4A428AAF0A2823AAA24356FA /* moc_HW0d.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6DEB229EA4E2398A81E4ADFC /* moc_HW0d.cpp */; settings = {ATTRIBUTES = (); }; };
+		58FC1C415CC809B6F23697C7 /* MainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8943E5014B6FFEE21C815844 /* MainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		5966955CF317783AEF98794D /* HW0c.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8B0A6BCE277BC31D86719970 /* HW0c.cpp */; settings = {ATTRIBUTES = (); }; };
+		6233D8C87988189C3A911C57 /* HW3b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AA1AB2DD43E7CF0E4E9181B9 /* HW3b.cpp */; settings = {ATTRIBUTES = (); }; };
+		6A2BB57E8FA43725EA8CB6CF /* HW4b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 174B1475FBE6ED7B9D99DD98 /* HW4b.cpp */; settings = {ATTRIBUTES = (); }; };
+		6AF86362DD40E52235482E74 /* moc_HW0a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 34F1ED26F3E86AECC3537398 /* moc_HW0a.cpp */; settings = {ATTRIBUTES = (); }; };
+		71907614D990BF419E58F14D /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E678E68BE080CE2947DB9A8D /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		7BFBF7CA280E88EB69595D1F /* Scene.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 689A9313F1E8696F10875CD3 /* Scene.cpp */; settings = {ATTRIBUTES = (); }; };
+		8123E61D87C89BC59AF3764E /* Cube.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1FB90F70BE0D14D58822494B /* Cube.cpp */; settings = {ATTRIBUTES = (); }; };
+		852941ECB247D5E4C5A32294 /* HW0a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 34F9ABC724E0054F8FBB31C5 /* HW0a.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		884E68DDB85B3A32FDB1B9C9 /* moc_HW4b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 71DBE8A6681593B54C7CFC1F /* moc_HW4b.cpp */; settings = {ATTRIBUTES = (); }; };
+		88CBDC017EF7FC887317D826 /* moc_HW4a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7B412C76681A45AA59B578F3 /* moc_HW4a.cpp */; settings = {ATTRIBUTES = (); }; };
+		8A045E36EB599A6CF685B518 /* HW1b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EF1537448E5B98A03E22F8AE /* HW1b.cpp */; settings = {ATTRIBUTES = (); }; };
+		8A057E63F6DC350F85EA86BC /* Cylinder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E10AEE5E1EDF547256C902FE /* Cylinder.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		8ECA37EBE032B8AFEB45606A /* qrc_CS472.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6EF97B5A2BAE3790A002F754 /* qrc_CS472.cpp */; settings = {ATTRIBUTES = (); }; };
+		9E749F25752AAE35806E6B58 /* HW0d.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F758C1F5A19B8464537975ED /* HW0d.cpp */; settings = {ATTRIBUTES = (); }; };
+		A0D98C204CBA96880CEF0B5E /* HW2a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3BD30F6D9D10332C03396355 /* HW2a.cpp */; settings = {ATTRIBUTES = (); }; };
+		A3492B092CA7220D36EA57CE /* Camera.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C110E6E4F209714AC0638F45 /* Camera.cpp */; settings = {ATTRIBUTES = (); }; };
+		A68449581D84FFDD51555459 /* HW2b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E2C66035665987325B3B30C1 /* HW2b.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		B181F548E0A959E846FCEC55 /* HW0b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 60D9A80081CD4DB60CE99E8A /* HW0b.cpp */; settings = {ATTRIBUTES = (); }; };
+		B3BADC5BCDC8F14000F6F492 /* HW1a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C8A5A7A34B871CDB617A6E7D /* HW1a.cpp */; settings = {ATTRIBUTES = (); }; };
+		B520B4B112C4E3E2A09F6D1D /* moc_HW3b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A27E5C408D557E74CE9D0FDA /* moc_HW3b.cpp */; settings = {ATTRIBUTES = (); }; };
+		BB0D23ED4A4C8908A9ADF5E4 /* moc_dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9D4B2866943A9240178E86FD /* moc_dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		C6D688E5763F8E242F242DA3 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 42186A0715AED87AE316DF99 /* QtCore.framework */; };
+		DACAF4CCB8FEB62EED094F0E /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2BD28F173C5BAE6AC1564A10 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		E23D4D983173EEC4186F24CA /* moc_MainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 738ED85B1641D06DAE7CFC67 /* moc_MainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		E33B2068613E62358F33C50A /* moc_HW2b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AE72435A7C3E8D286EDFCC2C /* moc_HW2b.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		E67BA034915D694B9AE08CD0 /* HW3a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 76B0E5BE6C748539BB5C054C /* HW3a.cpp */; settings = {ATTRIBUTES = (); }; };
+		ED1E2A2A66C1D8E84874CD4F /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 40C6438C328117A478E36B9B /* QtGui.framework */; };
+		F994C47112D11316526CD9A4 /* moc_HW3a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2833DA9A2A674F3557825C9E /* moc_HW3a.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1491EF802249C7CA0072C9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D81D47CB82C042EB13495A;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0649C475DF17ED555D7F7CFD /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = /Users/kareem/Downloads/CS472.skel/geometry/Geometry.h; sourceTree = "<absolute>"; };
+		100F4332B432EA381A674088 /* moc_HW1a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW1a.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW1a.cpp; sourceTree = "<absolute>"; };
+		1687CF0BB81986E63C09C311 /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Light.cpp; path = /Users/kareem/Downloads/CS472.skel/lighting/Light.cpp; sourceTree = "<absolute>"; };
+		174B1475FBE6ED7B9D99DD98 /* HW4b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW4b.cpp; path = /Users/kareem/Downloads/CS472.skel/hw4/HW4b.cpp; sourceTree = "<absolute>"; };
+		1CD9ED508A07146374E19338 /* Cone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cone.cpp; path = /Users/kareem/Downloads/CS472.skel/geometry/Cone.cpp; sourceTree = "<absolute>"; };
+		1FB90F70BE0D14D58822494B /* Cube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cube.cpp; path = /Users/kareem/Downloads/CS472.skel/geometry/Cube.cpp; sourceTree = "<absolute>"; };
+		24F2A065D899AB45F2853463 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = /Users/kareem/Downloads/CS472.skel/geometry/Scene.h; sourceTree = "<absolute>"; };
+		27DDF24820F0D063D1599736 /* HW0d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0d.h; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0d.h; sourceTree = "<absolute>"; };
+		2833DA9A2A674F3557825C9E /* moc_HW3a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW3a.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW3a.cpp; sourceTree = "<absolute>"; };
+		28655FEBAB855E9564CF9AD5 /* moc_HW2a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW2a.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW2a.cpp; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		2BD28F173C5BAE6AC1564A10 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/kareem/Downloads/CS472.skel/main.cpp; sourceTree = "<absolute>"; };
+		2C60DBEC0D43D06E276F56CD /* HW4a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW4a.h; path = /Users/kareem/Downloads/CS472.skel/hw4/HW4a.h; sourceTree = "<absolute>"; };
+		34F1ED26F3E86AECC3537398 /* moc_HW0a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0a.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW0a.cpp; sourceTree = "<absolute>"; };
+		34F9ABC724E0054F8FBB31C5 /* HW0a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0a.cpp; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0a.cpp; sourceTree = "<absolute>"; };
+		3A1D6077571074D30FEA474C /* HW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW.cpp; path = /Users/kareem/Downloads/CS472.skel/HW.cpp; sourceTree = "<absolute>"; };
+		3BD30F6D9D10332C03396355 /* HW2a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW2a.cpp; path = /Users/kareem/Downloads/CS472.skel/hw2/HW2a.cpp; sourceTree = "<absolute>"; };
+		40C6438C328117A478E36B9B /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/kareem/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		42186A0715AED87AE316DF99 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/kareem/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		47E5BC41D20B9B5D8BC120D2 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = /Users/kareem/Downloads/CS472.skel/MainWindow.h; sourceTree = "<absolute>"; };
+		4DFC6595B901A24BC6456285 /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = /Users/kareem/Downloads/CS472.skel/geometry/Cube.h; sourceTree = "<absolute>"; };
+		50AE4B8A4D120B6D74DD4FE5 /* CS472.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CS472.icns; path = /Users/kareem/Downloads/CS472.skel/CS472.icns; sourceTree = "<absolute>"; };
+		549B525C104DA0DECFDE5C86 /* HW4b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW4b.h; path = /Users/kareem/Downloads/CS472.skel/hw4/HW4b.h; sourceTree = "<absolute>"; };
+		57833238A49AE0EDD63B721B /* moc_HW0c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0c.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW0c.cpp; sourceTree = "<absolute>"; };
+		592964CEB7B52F90E9046BFF /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/kareem/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		5A527E0320608C9B2536BB31 /* HW1a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW1a.h; path = /Users/kareem/Downloads/CS472.skel/hw1/HW1a.h; sourceTree = "<absolute>"; };
+		5F25ABA37C8363A0B8F17625 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = /Users/kareem/Downloads/CS472.skel/camera/Camera.h; sourceTree = "<absolute>"; };
+		60D9A80081CD4DB60CE99E8A /* HW0b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0b.cpp; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0b.cpp; sourceTree = "<absolute>"; };
+		689A9313F1E8696F10875CD3 /* Scene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = /Users/kareem/Downloads/CS472.skel/geometry/Scene.cpp; sourceTree = "<absolute>"; };
+		6BFFF65DF87EF69D9CA0F29D /* HW0c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0c.h; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0c.h; sourceTree = "<absolute>"; };
+		6DEB229EA4E2398A81E4ADFC /* moc_HW0d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0d.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW0d.cpp; sourceTree = "<absolute>"; };
+		6EF97B5A2BAE3790A002F754 /* qrc_CS472.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_CS472.cpp; path = /Users/kareem/Downloads/CS472.skel/qrc_CS472.cpp; sourceTree = "<absolute>"; };
+		71DBE8A6681593B54C7CFC1F /* moc_HW4b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW4b.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW4b.cpp; sourceTree = "<absolute>"; };
+		738ED85B1641D06DAE7CFC67 /* moc_MainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_MainWindow.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_MainWindow.cpp; sourceTree = "<absolute>"; };
+		75E5AC301037B317B5F94454 /* CS472.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472.qrc; path = /Users/kareem/Downloads/CS472.skel/CS472.qrc; sourceTree = "<absolute>"; };
+		76B0E5BE6C748539BB5C054C /* HW3a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW3a.cpp; path = /Users/kareem/Downloads/CS472.skel/hw3/HW3a.cpp; sourceTree = "<absolute>"; };
+		7B412C76681A45AA59B578F3 /* moc_HW4a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW4a.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW4a.cpp; sourceTree = "<absolute>"; };
+		8943E5014B6FFEE21C815844 /* MainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainWindow.cpp; path = /Users/kareem/Downloads/CS472.skel/MainWindow.cpp; sourceTree = "<absolute>"; };
+		8A9D5C0BD600A83221B8C0E6 /* HW0b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0b.h; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0b.h; sourceTree = "<absolute>"; };
+		8B0A6BCE277BC31D86719970 /* HW0c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0c.cpp; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0c.cpp; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		98F678A5AABFB91CF10ABDE6 /* dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = /Users/kareem/Downloads/CS472.skel/dummy.h; sourceTree = "<absolute>"; };
+		9B7B24916114BAD0AF043E7C /* HW1b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW1b.h; path = /Users/kareem/Downloads/CS472.skel/hw1/HW1b.h; sourceTree = "<absolute>"; };
+		9D4B2866943A9240178E86FD /* moc_dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_dummy.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_dummy.cpp; sourceTree = "<absolute>"; };
+		9DB9C3F0220C4886CAD95C38 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = /Users/kareem/Qt5.12.0/5.12.0/clang_64/lib/QtOpenGL.framework; sourceTree = "<absolute>"; };
+		9ED7935DDFBB2BEC5D78BED1 /* HW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW.h; path = /Users/kareem/Downloads/CS472.skel/HW.h; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A27E5C408D557E74CE9D0FDA /* moc_HW3b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW3b.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW3b.cpp; sourceTree = "<absolute>"; };
+		A54A773211577504FBF5B52E /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cylinder.h; path = /Users/kareem/Downloads/CS472.skel/geometry/Cylinder.h; sourceTree = "<absolute>"; };
+		A6F86712A272D3037467262F /* Cone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cone.h; path = /Users/kareem/Downloads/CS472.skel/geometry/Cone.h; sourceTree = "<absolute>"; };
+		AA1AB2DD43E7CF0E4E9181B9 /* HW3b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW3b.cpp; path = /Users/kareem/Downloads/CS472.skel/hw3/HW3b.cpp; sourceTree = "<absolute>"; };
+		AABBEDFC4380D58825801AF3 /* HW4a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW4a.cpp; path = /Users/kareem/Downloads/CS472.skel/hw4/HW4a.cpp; sourceTree = "<absolute>"; };
+		AE72435A7C3E8D286EDFCC2C /* moc_HW2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW2b.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW2b.cpp; sourceTree = "<absolute>"; };
+		B09F0B7D41423790623DB401 /* moc_HW0b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0b.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW0b.cpp; sourceTree = "<absolute>"; };
+		B488AA0868238E3ECA1395BE /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = /Users/kareem/Downloads/CS472.skel/geometry/Sphere.h; sourceTree = "<absolute>"; };
+		BB1C9B3F8C8A18EEE231F93A /* CS472.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS472.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C110E6E4F209714AC0638F45 /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = /Users/kareem/Downloads/CS472.skel/camera/Camera.cpp; sourceTree = "<absolute>"; };
+		C27C5A15D1F6EE3434F35621 /* moc_HW1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW1b.cpp; path = /Users/kareem/Downloads/CS472.skel/moc_HW1b.cpp; sourceTree = "<absolute>"; };
+		C32607AC1EE7C8874F4D2C6F /* HW3a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW3a.h; path = /Users/kareem/Downloads/CS472.skel/hw3/HW3a.h; sourceTree = "<absolute>"; };
+		C8A5A7A34B871CDB617A6E7D /* HW1a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW1a.cpp; path = /Users/kareem/Downloads/CS472.skel/hw1/HW1a.cpp; sourceTree = "<absolute>"; };
+		C8FBB370E3B63273B3A4CE3F /* HW2a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW2a.h; path = /Users/kareem/Downloads/CS472.skel/hw2/HW2a.h; sourceTree = "<absolute>"; };
+		CC1633ED44518B8DD86D5691 /* CS472_common.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472_common.pro; path = /Users/kareem/Downloads/CS472.skel/CS472_common.pro; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		D8B845CF23DF8D73D457241C /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Light.h; path = /Users/kareem/Downloads/CS472.skel/lighting/Light.h; sourceTree = "<absolute>"; };
+		DC91F4602C8352C67541CFD0 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/kareem/Downloads/CS472.skel/.qmake.stash; sourceTree = "<absolute>"; };
+		DD19952F26E5A389318BABE7 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = /Users/kareem/Downloads/CS472.skel/geometry/Sphere.cpp; sourceTree = "<absolute>"; };
+		DD541F04FC44F2876BD0689E /* HW0a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0a.h; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0a.h; sourceTree = "<absolute>"; };
+		E10AEE5E1EDF547256C902FE /* Cylinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cylinder.cpp; path = /Users/kareem/Downloads/CS472.skel/geometry/Cylinder.cpp; sourceTree = "<absolute>"; };
+		E2C66035665987325B3B30C1 /* HW2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW2b.cpp; path = /Users/kareem/Downloads/CS472.skel/hw2/HW2b.cpp; sourceTree = "<absolute>"; };
+		E678E68BE080CE2947DB9A8D /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /Users/kareem/Downloads/CS472.skel/dummy.cpp; sourceTree = "<absolute>"; };
+		E7E05429443EBE49E3C13A6E /* CS472.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472.pro; path = /Users/kareem/Downloads/CS472.skel/CS472.pro; sourceTree = "<absolute>"; };
+		EB21E3498DA7F105BF0EAC3D /* HW3b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW3b.h; path = /Users/kareem/Downloads/CS472.skel/hw3/HW3b.h; sourceTree = "<absolute>"; };
+		EF1537448E5B98A03E22F8AE /* HW1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW1b.cpp; path = /Users/kareem/Downloads/CS472.skel/hw1/HW1b.cpp; sourceTree = "<absolute>"; };
+		EF7700923023F0F5B2DE0F83 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /Users/kareem/Qt5.12.0/5.12.0/clang_64/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
+		F758C1F5A19B8464537975ED /* HW0d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0d.cpp; path = /Users/kareem/Downloads/CS472.skel/hw0/HW0d.cpp; sourceTree = "<absolute>"; };
+		F84BD5C5B2D0AC5003CF0BCC /* HW2b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW2b.h; path = /Users/kareem/Downloads/CS472.skel/hw2/HW2b.h; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7B56A57465CC98DEA2478E /* QtOpenGL.framework in Link Binary With Libraries */,
+				1C9BF4199BF761E5AFDD32B5 /* QtWidgets.framework in Link Binary With Libraries */,
+				ED1E2A2A66C1D8E84874CD4F /* QtGui.framework in Link Binary With Libraries */,
+				C6D688E5763F8E242F242DA3 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A31DA8FFB6A3F21532CA67A /* hw3 */ = {
+			isa = PBXGroup;
+			children = (
+				76B0E5BE6C748539BB5C054C /* HW3a.cpp */,
+				AA1AB2DD43E7CF0E4E9181B9 /* HW3b.cpp */,
+				C32607AC1EE7C8874F4D2C6F /* HW3a.h */,
+				EB21E3498DA7F105BF0EAC3D /* HW3b.h */,
+			);
+			name = hw3;
+			sourceTree = "<group>";
+		};
+		2156C9B67EB6B3918607349C /* lighting */ = {
+			isa = PBXGroup;
+			children = (
+				1687CF0BB81986E63C09C311 /* Light.cpp */,
+				D8B845CF23DF8D73D457241C /* Light.h */,
+			);
+			name = lighting;
+			sourceTree = "<group>";
+		};
+		24318BA31F631EB3F0026335 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				1FB90F70BE0D14D58822494B /* Cube.cpp */,
+				DD19952F26E5A389318BABE7 /* Sphere.cpp */,
+				E10AEE5E1EDF547256C902FE /* Cylinder.cpp */,
+				1CD9ED508A07146374E19338 /* Cone.cpp */,
+				689A9313F1E8696F10875CD3 /* Scene.cpp */,
+				0649C475DF17ED555D7F7CFD /* Geometry.h */,
+				4DFC6595B901A24BC6456285 /* Cube.h */,
+				B488AA0868238E3ECA1395BE /* Sphere.h */,
+				A54A773211577504FBF5B52E /* Cylinder.h */,
+				A6F86712A272D3037467262F /* Cone.h */,
+				24F2A065D899AB45F2853463 /* Scene.h */,
+			);
+			name = geometry;
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6EF97B5A2BAE3790A002F754 /* qrc_CS472.cpp */,
+				738ED85B1641D06DAE7CFC67 /* moc_MainWindow.cpp */,
+				9D4B2866943A9240178E86FD /* moc_dummy.cpp */,
+				34F1ED26F3E86AECC3537398 /* moc_HW0a.cpp */,
+				B09F0B7D41423790623DB401 /* moc_HW0b.cpp */,
+				57833238A49AE0EDD63B721B /* moc_HW0c.cpp */,
+				6DEB229EA4E2398A81E4ADFC /* moc_HW0d.cpp */,
+				100F4332B432EA381A674088 /* moc_HW1a.cpp */,
+				C27C5A15D1F6EE3434F35621 /* moc_HW1b.cpp */,
+				28655FEBAB855E9564CF9AD5 /* moc_HW2a.cpp */,
+				AE72435A7C3E8D286EDFCC2C /* moc_HW2b.cpp */,
+				2833DA9A2A674F3557825C9E /* moc_HW3a.cpp */,
+				A27E5C408D557E74CE9D0FDA /* moc_HW3b.cpp */,
+				7B412C76681A45AA59B578F3 /* moc_HW4a.cpp */,
+				71DBE8A6681593B54C7CFC1F /* moc_HW4b.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2BD28F173C5BAE6AC1564A10 /* main.cpp */,
+				8943E5014B6FFEE21C815844 /* MainWindow.cpp */,
+				3A1D6077571074D30FEA474C /* HW.cpp */,
+				E678E68BE080CE2947DB9A8D /* dummy.cpp */,
+				24318BA31F631EB3F0026335 /* geometry */,
+				2156C9B67EB6B3918607349C /* lighting */,
+				FF8C409087E1FACCA055498B /* camera */,
+				5B4C135899C5C2F6FFFD7ADB /* hw0 */,
+				3C77C658827F4A07ABF9D58B /* hw1 */,
+				8D1A7173215F622A1D3A66B1 /* hw2 */,
+				0A31DA8FFB6A3F21532CA67A /* hw3 */,
+				98958E24D2033CDCEC7E42CF /* hw4 */,
+				50AE4B8A4D120B6D74DD4FE5 /* CS472.icns */,
+				47E5BC41D20B9B5D8BC120D2 /* MainWindow.h */,
+				9ED7935DDFBB2BEC5D78BED1 /* HW.h */,
+				98F678A5AABFB91CF10ABDE6 /* dummy.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3C77C658827F4A07ABF9D58B /* hw1 */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5A7A34B871CDB617A6E7D /* HW1a.cpp */,
+				EF1537448E5B98A03E22F8AE /* HW1b.cpp */,
+				5A527E0320608C9B2536BB31 /* HW1a.h */,
+				9B7B24916114BAD0AF043E7C /* HW1b.h */,
+			);
+			name = hw1;
+			sourceTree = "<group>";
+		};
+		5B4C135899C5C2F6FFFD7ADB /* hw0 */ = {
+			isa = PBXGroup;
+			children = (
+				34F9ABC724E0054F8FBB31C5 /* HW0a.cpp */,
+				60D9A80081CD4DB60CE99E8A /* HW0b.cpp */,
+				8B0A6BCE277BC31D86719970 /* HW0c.cpp */,
+				F758C1F5A19B8464537975ED /* HW0d.cpp */,
+				DD541F04FC44F2876BD0689E /* HW0a.h */,
+				8A9D5C0BD600A83221B8C0E6 /* HW0b.h */,
+				6BFFF65DF87EF69D9CA0F29D /* HW0c.h */,
+				27DDF24820F0D063D1599736 /* HW0d.h */,
+			);
+			name = hw0;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E05429443EBE49E3C13A6E /* CS472.pro */,
+				DC91F4602C8352C67541CFD0 /* .qmake.stash */,
+				CC1633ED44518B8DD86D5691 /* CS472_common.pro */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75E5AC301037B317B5F94454 /* CS472.qrc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8D1A7173215F622A1D3A66B1 /* hw2 */ = {
+			isa = PBXGroup;
+			children = (
+				3BD30F6D9D10332C03396355 /* HW2a.cpp */,
+				E2C66035665987325B3B30C1 /* HW2b.cpp */,
+				C8FBB370E3B63273B3A4CE3F /* HW2a.h */,
+				F84BD5C5B2D0AC5003CF0BCC /* HW2b.h */,
+			);
+			name = hw2;
+			sourceTree = "<group>";
+		};
+		98958E24D2033CDCEC7E42CF /* hw4 */ = {
+			isa = PBXGroup;
+			children = (
+				AABBEDFC4380D58825801AF3 /* HW4a.cpp */,
+				174B1475FBE6ED7B9D99DD98 /* HW4b.cpp */,
+				2C60DBEC0D43D06E276F56CD /* HW4a.h */,
+				549B525C104DA0DECFDE5C86 /* HW4b.h */,
+			);
+			name = hw4;
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DB9C3F0220C4886CAD95C38 /* QtOpenGL.framework */,
+				592964CEB7B52F90E9046BFF /* QtWidgets.framework */,
+				40C6438C328117A478E36B9B /* QtGui.framework */,
+				42186A0715AED87AE316DF99 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */ = {
+			isa = PBXGroup;
+			children = (
+				EF7700923023F0F5B2DE0F83 /* dummy.cpp */,
+			);
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* CS472 */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = CS472;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C9B3F8C8A18EEE231F93A /* CS472.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8C409087E1FACCA055498B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				C110E6E4F209714AC0638F45 /* Camera.cpp */,
+				5F25ABA37C8363A0B8F17625 /* Camera.h */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CC83BAA889396EB53293D5 /* CS472 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+				99542592E9780B9225F24AA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				589605CA7CE54BE433C1FC43 /* PBXTargetDependency */,
+			);
+			name = CS472;
+			productName = CS472;
+			productReference = BB1C9B3F8C8A18EEE231F93A /* CS472.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CS472" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* CS472 */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CC83BAA889396EB53293D5 /* CS472 */,
+				E6D81D47CB82C042EB13495A /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kareem/Downloads/CS472.skel -f CS472.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kareem/Downloads/CS472.skel -f CS472.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACAF4CCB8FEB62EED094F0E /* main.cpp in Compile Sources */,
+				58FC1C415CC809B6F23697C7 /* MainWindow.cpp in Compile Sources */,
+				477DF6158F9C8C212E0FE417 /* HW.cpp in Compile Sources */,
+				71907614D990BF419E58F14D /* dummy.cpp in Compile Sources */,
+				8123E61D87C89BC59AF3764E /* Cube.cpp in Compile Sources */,
+				0DDE04F7E9CD6153F8DBC86A /* Sphere.cpp in Compile Sources */,
+				8A057E63F6DC350F85EA86BC /* Cylinder.cpp in Compile Sources */,
+				3E5D6903D865425DEB6C5EC5 /* Cone.cpp in Compile Sources */,
+				7BFBF7CA280E88EB69595D1F /* Scene.cpp in Compile Sources */,
+				39D8498198DC58EAACFDB40E /* Light.cpp in Compile Sources */,
+				A3492B092CA7220D36EA57CE /* Camera.cpp in Compile Sources */,
+				852941ECB247D5E4C5A32294 /* HW0a.cpp in Compile Sources */,
+				B181F548E0A959E846FCEC55 /* HW0b.cpp in Compile Sources */,
+				5966955CF317783AEF98794D /* HW0c.cpp in Compile Sources */,
+				9E749F25752AAE35806E6B58 /* HW0d.cpp in Compile Sources */,
+				B3BADC5BCDC8F14000F6F492 /* HW1a.cpp in Compile Sources */,
+				8A045E36EB599A6CF685B518 /* HW1b.cpp in Compile Sources */,
+				A0D98C204CBA96880CEF0B5E /* HW2a.cpp in Compile Sources */,
+				A68449581D84FFDD51555459 /* HW2b.cpp in Compile Sources */,
+				E67BA034915D694B9AE08CD0 /* HW3a.cpp in Compile Sources */,
+				6233D8C87988189C3A911C57 /* HW3b.cpp in Compile Sources */,
+				0F099E3444CEE4CEEAE9D982 /* HW4a.cpp in Compile Sources */,
+				6A2BB57E8FA43725EA8CB6CF /* HW4b.cpp in Compile Sources */,
+				8ECA37EBE032B8AFEB45606A /* qrc_CS472.cpp in Compile Sources */,
+				E23D4D983173EEC4186F24CA /* moc_MainWindow.cpp in Compile Sources */,
+				BB0D23ED4A4C8908A9ADF5E4 /* moc_dummy.cpp in Compile Sources */,
+				6AF86362DD40E52235482E74 /* moc_HW0a.cpp in Compile Sources */,
+				3ED2D2667ADAF6C248B7243B /* moc_HW0b.cpp in Compile Sources */,
+				14309008A271EA73D96B75FF /* moc_HW0c.cpp in Compile Sources */,
+				4A428AAF0A2823AAA24356FA /* moc_HW0d.cpp in Compile Sources */,
+				19ACB1123E7059B400C424E7 /* moc_HW1a.cpp in Compile Sources */,
+				08DC333D3F914357834169A2 /* moc_HW1b.cpp in Compile Sources */,
+				29904606857D6ACE1755D00A /* moc_HW2a.cpp in Compile Sources */,
+				E33B2068613E62358F33C50A /* moc_HW2b.cpp in Compile Sources */,
+				F994C47112D11316526CD9A4 /* moc_HW3a.cpp in Compile Sources */,
+				B520B4B112C4E3E2A09F6D1D /* moc_HW3b.cpp in Compile Sources */,
+				88CBDC017EF7FC887317D826 /* moc_HW4a.cpp in Compile Sources */,
+				884E68DDB85B3A32FDB1B9C9 /* moc_HW4b.cpp in Compile Sources */,
+				2CF3EA3C46F8A724C35FD4B7 /* dummy.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		589605CA7CE54BE433C1FC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D81D47CB82C042EB13495A /* Qt Preprocess */;
+			targetProxy = 1491EF802249C7CA0072C9FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CONFIGURATION_BUILD_DIR = "/Users/kareem/Downloads/CS472.skel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib,
+					/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					.,
+					geometry,
+					camera,
+					lighting,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtOpenGL.framework/Headers,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"../../Qt5.12.0/5.12.0/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/Frameworks",
+					"-Wl,-rpath,/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib",
+					"-F/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = CS472;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = /Users/kareem/Downloads/CS472.skel/.xcode;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CONFIGURATION_BUILD_DIR = "/Users/kareem/Downloads/CS472.skel/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib,
+					/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					.,
+					geometry,
+					camera,
+					lighting,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtOpenGL.framework/Headers,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers,
+					../../Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"../../Qt5.12.0/5.12.0/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/Frameworks",
+					"-Wl,-rpath,/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib",
+					"-F/Users/kareem/Qt5.12.0/5.12.0/clang_64/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = CS472;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+				SYMROOT = /Users/kareem/Downloads/CS472.skel/.xcode;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = CS472;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = CS472;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CS472" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
